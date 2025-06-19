@@ -1,4 +1,4 @@
-# Visão Geral
+# 1. Visão Geral
 
 ## Resumo
 O `phd.llm`  é uma aplicação desenvovlida com o intuito de facilitar e impuslionar a pesquisa científica através do uso de LLMs capazes de encontrar lacunas em papers e encontrar quais outros trabalhos lidaram com ela, se houver solução.
@@ -15,3 +15,7 @@ O stack escolhido será o FARM, sobretudo em função da agilidade das aplicaç�
 * FA => FastAPI (BackEnd)
 * R => React (FrontEnd)
 * M => MongoDB (DataBase)
+
+Para a parte generativa o modelo selecionado será o Gemini 2.5 Pro. A escolha se deve do modelo ter benefícios para estudantes universiários.
+
+# 2. Objetivos do MVP
