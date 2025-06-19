@@ -20,5 +20,22 @@ O stack escolhido será o FARM, sobretudo em função da agilidade das aplicaç�
 # 2. Objetivos do MVP
 O MVP tem como objetivo garantir que a principalmente funcionalidade esteja disponível: Identificar lacunas em papers.
 
+## Limitação
 Uma limitação do MVP será a de que neste primeiro momento não será possível realizar múltiplas análsie simultaneamente.
+
+## FRs
+* Input do usuário (título ou DOI de paper)
+* Busca do paper via arXiv / Semantic Scholar
+* Extração de conteúdo (resumo, seções)
+* Prompting para LLM identificar lacunas
+* Busca de papers que abordam essas lacunas
+* Exibir resultados ao usuário (resumo, links)
+*  Armazenamento de histórico
+
+## NFRs
+* Baixa latência na resposta da API
+* Alta disponibilidade do sistema
+* Manutenibilidade do código
+* Logs e rastreabilidade de requisições
+* Segurança de API Keys e dados sensíveis
 
