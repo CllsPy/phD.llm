@@ -42,4 +42,28 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 # 3.  Arquitetura do Sistema
 ![image](https://github.com/user-attachments/assets/69604811-1d21-4a45-abeb-6d0d983dfd1c)
 
+# 4. Componentes Técnicos
 
+## Estrutura das Pastas 
+
+```
+project-root/
+│
+├── frontend/          # React + Tailwind
+│   └── src/
+│       └── pages/, components/, api/
+│
+├── backend/
+│   ├── app/
+│   │   ├── api/       # Rotas
+│   │   ├── services/  # Lógica de negócio
+│   │   ├── models/    # Schemas e Pydantic
+│   │   └── core/      # Configs
+│   ├── tests/
+│   └── Dockerfile
+│
+├── .github/
+│   └── workflows/
+├── README.md
+└── .env.template
+```
