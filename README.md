@@ -39,3 +39,5 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 * Logs e rastreabilidade de requisições
 * Segurança de API Keys e dados sensíveis
 
+# 3.  Arquitetura do Sistema
+
