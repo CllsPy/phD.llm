@@ -42,6 +42,27 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 # 3.  Arquitetura do Sistema
 ![image](https://github.com/user-attachments/assets/69604811-1d21-4a45-abeb-6d0d983dfd1c)
 
+## Diagrama de sequência
+User
+ ↓
+Frontend (React)
+ ↓
+FastAPI - POST /analyze
+ ↓
+[1] Buscar metadados via API externa (arXiv, Semantic Scholar)
+ ↓
+[2] Extrair título, autores e resumo
+ ↓
+[3] Enviar para LLM com prompt
+ ↓
+[4] Extrair lacunas estruturadas
+ ↓
+[5] Buscar papers relacionados às lacunas
+ ↓
+[6] Salvar análise no MongoDB
+ ↓
+[7] Retornar JSON com lacunas + artigos relacionados
+
 # 4. Componentes Técnicos
 
 ## Estrutura das Pastas 
