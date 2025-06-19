@@ -43,6 +43,7 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 ![image](https://github.com/user-attachments/assets/69604811-1d21-4a45-abeb-6d0d983dfd1c)
 
 ## Diagrama de sequência
+
 User
  ↓
 Frontend (React)
