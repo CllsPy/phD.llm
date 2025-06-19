@@ -12,10 +12,13 @@ A plataforma destina-se, mas não somente, a aulas que estejam iniciando o seu d
 ## Tecnologia
 O stack escolhido será o FARM, sobretudo em função da agilidade das aplicações construídas através do mesmo e do amplo suporte da comunidade em relação as ferramentas.
 
-* FA => FastAPI (BackEnd)
-* R => React (FrontEnd)
-* M => MongoDB (DataBase)
-
-Para a parte generativa o modelo selecionado será o Gemini 2.5 Pro. A escolha se deve do modelo ter benefícios para estudantes universiários.
+* **FastAPI** → API moderna e performática.
+* **AI/LLM** → Gemini.
+* **React** → Interface dinâmica para usuário.
+* **MongoDB** → Armazenar histórico de buscas, papers analisados, feedback etc.
 
 # 2. Objetivos do MVP
+O MVP tem como objetivo garantir que a principalmente funcionalidade esteja disponível: Identificar lacunas em papers.
+
+Uma limitação do MVP será a de que neste primeiro momento não será possível realizar múltiplas análsie simultaneamente.
+
