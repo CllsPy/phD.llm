@@ -44,6 +44,7 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 
 ## Diagrama de sequência
 
+```
 User
  ↓
 Frontend (React)
@@ -63,10 +64,11 @@ FastAPI - POST /analyze
 [6] Salvar análise no MongoDB
  ↓
 [7] Retornar JSON com lacunas + artigos relacionados
+```
 
 # 4. Componentes Técnicos
 
-## Estrutura das Pastas 
+## Estrutura das Pastas
 
 ```
 project-root/
