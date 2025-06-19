@@ -40,6 +40,6 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 * Segurança de API Keys e dados sensíveis
 
 # 3.  Arquitetura do Sistema
-[Estudando...]
+![diagramgeral](https://github.com/user-attachments/assets/a9ac7ceb-a6df-4e1a-b818-af088f117186)
 
 
