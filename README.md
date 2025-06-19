@@ -8,3 +8,10 @@ No doutorado é esperado que o doutorando seja capaz de analisar um extenso corp
 
 ## Público Alvo
 A plataforma destina-se, mas não somente, a aulas que estejam iniciando o seu doutorado e precisem de suporte na etapa de avaliação, na qual o estudante procura por lacunas a serem solucionadas em sua área de expertise.
+
+## Tecnologia
+O stack escolhido será o FARM, sobretudo em função da agilidade das aplicações construídas através do mesmo e do amplo suporte da comunidade em relação as ferramentas.
+
+* FA => FastAPI (BackEnd)
+* R => React (FrontEnd)
+* M => MongoDB (DataBase)
