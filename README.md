@@ -39,33 +39,8 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 * Logs e rastreabilidade de requisições
 * Segurança de API Keys e dados sensíveis
 
-# 3.  Arquitetura do Sistema
-![image](https://github.com/user-attachments/assets/9a8b386b-0ae6-4867-8d6c-0c5ed9242900)
-
-
-## Diagrama de sequência
-
-```
-User
- ↓
-Frontend (React)
- ↓
-FastAPI - POST /analyze
- ↓
-[1] Buscar metadados via API externa (arXiv, Semantic Scholar)
- ↓
-[2] Extrair título, autores e resumo
- ↓
-[3] Enviar para LLM com prompt
- ↓
-[4] Extrair lacunas estruturadas
- ↓
-[5] Buscar papers relacionados às lacunas
- ↓
-[6] Salvar análise no MongoDB
- ↓
-[7] Retornar JSON com lacunas + artigos relacionados
-```
+# 3.  Arquitetura do Sistema (C4 Model)
+![lllmpdh](https://github.com/user-attachments/assets/ae0f63f7-0e19-4d7a-83c6-a45dc5faa154)
 
 # 4. Componentes Técnicos
 
