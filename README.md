@@ -40,7 +40,8 @@ Uma limitação do MVP será a de que neste primeiro momento não será possíve
 * Segurança de API Keys e dados sensíveis
 
 # 3.  Arquitetura do Sistema (C4 Model)
-![lllmpdh](https://github.com/user-attachments/assets/ae0f63f7-0e19-4d7a-83c6-a45dc5faa154)
+![doixx](https://github.com/user-attachments/assets/35a58346-3ad5-43c1-b6e8-e9661eb5b2c9)
+
 
 # 4. Componentes Técnicos
 
